@@ -1,0 +1,67 @@
+/* 整体布局 */
+body {
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.7;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fdfdfd;
+  color: #333;
+}
+
+/* 页眉页脚 */
+header, footer {
+  text-align: center;
+  margin: 20px 0;
+  color: #666;
+}
+
+/* 让 h3 看起来像 h1 */
+h3 {
+  font-size: 2em;    /* 相当于 h1 */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+/* 让 h5 看起来像 h2 */
+h5 {
+  font-size: 1.5em;  /* 相当于 h2 */
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+  color: #444;
+}
+
+/* 正文段落 */
+p {
+  font-size: 1.05em;
+  margin: 0.8em 0;
+}
+
+/* 代码块 */
+pre, code {
+  font-family: "Fira Code", "Consolas", "Courier New", monospace;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 12px;
+  overflow-x: auto;
+  font-size: 0.95em;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 0.95em;
+}
+
+/* 链接样式 */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
