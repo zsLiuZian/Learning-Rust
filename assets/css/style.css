@@ -5,7 +5,7 @@ body {
   max-width: 860px;
   margin: 0 auto;
   padding: 20px;
-  background: #327b9f !important;
+  background: #fdfdfd;
   color: #333;
 }
 
@@ -18,24 +18,24 @@ header, footer {
 
 /* 让 h3 看起来像 h1 */
 h3 {
-  font-size: 5em;    /* 相当于 h1 */
-  margin-top: 2em;
-  margin-bottom: 1em;
+  font-size: 2em;    /* 相当于 h1 */
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
   font-weight: bold;
 }
 
 /* 让 h5 看起来像 h2 */
 h5 {
-  font-size: 3em;  /* 相当于 h2 */
+  font-size: 1.5em;  /* 相当于 h2 */
   margin-top: 1.2em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.4em;
   font-weight: bold;
   color: #444;
 }
 
 /* 正文段落 */
 p {
-  font-size: 1.6em;
+  font-size: 1.05em;
   margin: 0.8em 0;
 }
 
@@ -54,7 +54,7 @@ pre {
 
 code {
   padding: 2px 4px;
-  font-size: 1.2em;
+  font-size: 0.95em;
 }
 
 /* 链接样式 */
