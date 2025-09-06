@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Home
+title: Learning Rust
 ---
 
 
@@ -2916,6 +2915,7 @@ fn f<T>()
 //Lifetiem parameter需要放在Type parameter之前
 fn f<'t, 'c, P>() {}
 ```
+
 
 
 
